@@ -64,6 +64,10 @@ section {
   overflow: hidden;
 }
 
+ul{
+  list-style: none;
+}
+
 .section-bg {
   background-color: #f5f6f7;
 }
@@ -114,6 +118,7 @@ section {
   padding: 140px 0 60px 0;
   min-height: 30vh;
   position: relative;
+  width: 100%!important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
