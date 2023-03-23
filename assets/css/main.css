@@ -116,12 +116,20 @@ ul{
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 140px 0 60px 0;
-  min-height: 30vh;
+  min-height: 50vh;
   position: relative;
   width: 100%!important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.a2{
+  color: black!important;
+}
+
+.section-bg {
+  background-color: #f5f6f7!important;
 }
 
 .breadcrumbs:before {
@@ -267,6 +275,7 @@ ul{
   top: 0;
   left: 0;
   right: 0;
+  background-color: white;
 }
 
 .header .logo img {
